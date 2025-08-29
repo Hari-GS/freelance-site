@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 "use client";
 
 import { motion } from "framer-motion";
@@ -9,14 +11,14 @@ export default function AboutSection() {
       role: "Head of Operations",
       image: "/Hari-profile-img.jpg", // replace with actual path
       description:
-        `"Hi! I'm Hari. I take care of day-to-day operations, making sure projects run smoothly and clients are happy. Let’s connect on LinkedIn and Instagram"`,
+        "\"Hi! I'm Hari. I take care of day-to-day operations, making sure projects run smoothly and clients are happy. Let’s connect on LinkedIn and Instagram\"",
     },
     {
       name: "Sudeep Acharjee",
       role: "Team Lead",
       image: "/images/priya.jpg", // replace with actual path
       description:
-        `"Hey! I'm Sudeep. I guide the development team, making sure we deliver high-quality, creative solutions together. You can explore my work on GitHub and Instagram!"`,
+        "\"Hey! I'm Sudeep. I guide the development team, making sure we deliver high-quality, creative solutions together. You can explore my work on GitHub and Instagram!\"",
     },
   ];
 
