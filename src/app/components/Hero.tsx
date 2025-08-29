@@ -12,8 +12,8 @@ export default function Hero() {
   ];
 
   return (
-    <section id="home" className="bg-neutral-white">
-      <div className="mx-auto max-w-7xl px-6 pt-32 pb-20 flex flex-col-reverse md:flex-row items-center gap-12">
+    <section id="home" className="bg-white">
+      <div className="mx-auto max-w-7xl px-6 md:pt-32 pt-10 pb-36 flex flex-col-reverse md:flex-row items-center gap-12">
         
         {/* Text Section */}
         <div className="flex-1 text-center md:text-left">
@@ -60,7 +60,7 @@ export default function Hero() {
         {/* Illustration / Image */}
         <div className="flex-1 flex justify-center">
           <Image 
-            src="/hero-illustration.jpg" // replace with your illustration
+            src="/hero-illustration-4.png" // replace with your illustration
             alt="Illustration"
             width={500}
             height={400}

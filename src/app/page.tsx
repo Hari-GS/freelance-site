@@ -1,3 +1,4 @@
+import AboutSection from "./components/AboutSection";
 import CallToAction from "./components/CallToAction";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
@@ -14,6 +15,7 @@ export default function Home() {
       <Header/>
       <Hero/>
       <ServicesSection/>
+      <AboutSection/>
       <Portfolio/>
       <WhyChooseUs/>
       <Testimonials/>

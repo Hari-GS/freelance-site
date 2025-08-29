@@ -13,14 +13,14 @@
   --color-foreground: var(--foreground);
 
   /* Primary green palette */
-  --color-primary: #16a34a;       /* base green (trust) */
-  --color-primary-dark: #15803d;  /* darker green */
-  --color-primary-light: #4ade80; /* lighter green */
+  --color-primary: #522c5d;       /* base green (trust) */
+  --color-primary-dark: #29104a;  /* darker green */
+  --color-primary-light: #845162; /* lighter green */
 
   /* Neutral palette for backgrounds/text */
-  --color-neutral-white: #ffffff;
-  --color-neutral-grey: #9ca3af;  /* mid grey */
-  --color-neutral-black: #000000;
+  --color-neutral-white: #ffe3d8;
+  --color-neutral-grey: #845162;  /* mid grey */
+  --color-neutral-black: #150016;
 
   /* Fonts */
   --font-sans: var(--font-geist-sans);
