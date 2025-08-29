@@ -27,8 +27,7 @@ export default function AboutSection() {
           About Us
         </h2>
         <p className="text-neutral-grey mb-12 max-w-2xl mx-auto">
-          Meet the core team behind our projects. Passionate, experienced, and
-          committed to driving your success.
+            Say hello to the two minds behind our projects, guiding operations and development with passion
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">

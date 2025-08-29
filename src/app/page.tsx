@@ -16,9 +16,9 @@ export default function Home() {
       <Hero/>
       <ServicesSection/>
       <AboutSection/>
-      <Portfolio/>
+      {/* <Portfolio/> */}
       <WhyChooseUs/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
       <CallToAction/>
       <ContactSection/>
       <Footer/>

@@ -69,7 +69,7 @@ export default function Header() {
             href="#contact"
             className="rounded-full bg-gradient-to-r from-primary to-primary-dark px-6 py-2 text-neutral-white font-medium shadow-md hover:shadow-lg transition transform hover:scale-105"
           >
-            Get a Quote
+            Hire Us!
           </a>
         </div>
 
