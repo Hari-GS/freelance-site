@@ -48,12 +48,12 @@ export default function Hero() {
             >
               Start Your Project
             </Link>
-            <Link
+            {/* <Link
               href="#work"
               className="rounded-full border border-neutral-grey px-6 py-3 text-neutral-black font-medium hover:border-primary hover:text-primary transform hover:scale-105 transition"
             >
               View Work
-            </Link>
+            </Link> */}
           </div>
         </div>
         

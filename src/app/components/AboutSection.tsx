@@ -23,7 +23,7 @@ export default function AboutSection() {
   return (
     <section id="about" className="bg-gray-50 py-16 px-6 md:px-12 lg:px-20">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-neutral-black mb-4">
           About Us
         </h2>
         <p className="text-neutral-grey mb-12 max-w-2xl mx-auto">
@@ -47,10 +47,10 @@ export default function AboutSection() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-semibold text-primary mb-1">
+              <h3 className="text-xl font-semibold text-neutral-black mb-1">
                 {member.name}
               </h3>
-              <p className="text-sm text-neutral-grey mb-3">{member.role}</p>
+              <p className="text-sm text-neutral-black mb-3">{member.role}</p>
               <p className="text-neutral-grey text-sm">{member.description}</p>
             </motion.div>
           ))}

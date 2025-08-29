@@ -36,11 +36,10 @@ export default function WhyChooseUs() {
 
       <div className="max-w-6xl mx-auto px-6 text-center relative z-10">
         {/* Heading with underline accent */}
-        <h2 className="text-4xl font-extrabold text-gray-900 mb-4 relative inline-block">
+        <h2 className="text-4xl font-extrabold text-neutral-black mb-4 relative inline-block">
           Why Choose Us
-          <span className="absolute left-1/2 -bottom-2 w-16 h-1 bg-primary rounded-full -translate-x-1/2"></span>
         </h2>
-        <p className="text-gray-600 mb-16 text-lg">
+        <p className="text-neutral-grey mb-16 text-lg">
           A few reasons why you should choose us
         </p>
 
@@ -60,10 +59,10 @@ export default function WhyChooseUs() {
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary transition">
+              <h3 className="text-xl font-bold text-neutral-black mb-3 group-hover:text-primary transition">
                 {point.title}
               </h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
+              <p className="text-neutral-grey text-sm leading-relaxed">
                 {point.description}
               </p>
 

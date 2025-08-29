@@ -3,10 +3,10 @@ import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer className="bg-neutral-black text-neutral-white py-6">
+    <footer className="bg-neutral-black text-gray-50 py-6">
       <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
         {/* Copyright */}
-        <p className="text-sm text-neutral-grey">
+        <p className="text-sm text-gray-50">
           © 2025 YourTeamName. All rights reserved.
         </p>
 

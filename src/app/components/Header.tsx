@@ -14,7 +14,7 @@ export default function Header() {
       setScrolled(window.scrollY > 20);
 
       // Detect active section (simple version)
-      const sections = ['home', 'services', 'work', 'contact'];
+      const sections = ['home', 'services', 'contact'];
       for (const id of sections) {
         const el = document.getElementById(id);
         if (el) {
@@ -47,7 +47,7 @@ export default function Header() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-8 text-gray-700 font-medium">
-          {['home', 'services', 'work', 'contact'].map((item) => (
+          {['home', 'services', 'contact'].map((item) => (
             <Link
               key={item}
               href={`#${item}`}
@@ -117,7 +117,7 @@ export default function Header() {
             transition={{ duration: 0.3 }}
             className="md:hidden bg-white border-t border-neutral-grey px-6 py-4 flex flex-col space-y-4 text-gray-700 font-medium"
           >
-            {['home', 'services', 'work', 'contact'].map((item, idx) => (
+            {['home', 'services', 'contact'].map((item, idx) => (
               <motion.div
                 key={item}
                 initial={{ x: -20, opacity: 0 }}

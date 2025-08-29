@@ -41,7 +41,7 @@ export default function ServicesSection() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-4xl font-bold text-primary mb-4"
+          className="text-3xl md:text-4xl font-bold text-neutral-black mb-4"
         >
           Our Services
         </motion.h2>
@@ -73,7 +73,7 @@ export default function ServicesSection() {
                 {service.icon}
               </div>
 
-              <h3 className="text-lg font-semibold text-primary mb-2">
+              <h3 className="text-lg font-semibold text-neutral-black mb-2">
                 {service.title}
               </h3>
 
