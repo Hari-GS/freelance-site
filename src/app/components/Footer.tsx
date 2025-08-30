@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
         {/* Copyright */}
         <p className="text-sm text-gray-50">
-          © 2025 YourTeamName. All rights reserved.
+          © 2025 Lancerra. All rights reserved.
         </p>
 
         {/* Social Links */}

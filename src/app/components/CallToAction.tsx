@@ -10,7 +10,7 @@ export default function CallToAction() {
         </p>
         <a
           href="#contact"
-          className="bg-white text-primary-dark font-semibold px-6 py-3 rounded-lg hover:bg-primary-light transition"
+          className="bg-white text-primary-dark font-semibold px-6 py-3 rounded-lg hover:bg-neutral-white transition"
         >
           Get a Free Quote
         </a>

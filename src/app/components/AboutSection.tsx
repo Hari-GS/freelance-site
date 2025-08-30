@@ -9,16 +9,58 @@ export default function AboutSection() {
     {
       name: "Hariharan G",
       role: "Head of Operations",
-      image: "/Hari-profile-img.jpg", // replace with actual path
-      description:
-        "\"Hi! I'm Hari. I take care of day-to-day operations, making sure projects run smoothly and clients are happy. Let’s connect on LinkedIn and Instagram\"",
+      image: "/Hari-profile-img.jpg",
+      description: (
+        <>
+          Hi! I'm Hari. I take care of day-to-day operations, making sure projects run smoothly and clients are happy. Let’s connect on{" "}
+          <a
+            href="https://www.linkedin.com/in/dev-hariharan-g/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary underline hover:text-primary/80"
+          >
+            LinkedIn
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://www.instagram.com/hari.maverick_"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary underline hover:text-primary/80"
+          >
+            Instagram
+          </a>
+          .
+        </>
+      ),
     },
     {
       name: "Sudeep Acharjee",
       role: "Team Lead",
-      image: "/images/priya.jpg", // replace with actual path
-      description:
-        "\"Hey! I'm Sudeep. I guide the development team, making sure we deliver high-quality, creative solutions together. You can explore my work on GitHub and Instagram!\"",
+      image: "/sudeep-profile.jpg",
+      description: (
+        <>
+          Hey! I'm Sudeep. I guide the development team, making sure we deliver high-quality, creative solutions together. You can explore my works on{" "}
+          <a
+            href="https://github.com/SudeepAcharjee"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary underline hover:text-primary/80"
+          >
+            GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://www.instagram.com/_al.che.mist/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary underline hover:text-primary/80"
+          >
+            Instagram
+          </a>
+          .
+        </>
+      ),
     },
   ];
 
@@ -29,7 +71,7 @@ export default function AboutSection() {
           About Us
         </h2>
         <p className="text-neutral-grey mb-12 max-w-2xl mx-auto">
-            Say hello to the two minds behind our projects, guiding operations and development with passion
+          Say hello to the two minds behind our projects, guiding operations and development with passion
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">

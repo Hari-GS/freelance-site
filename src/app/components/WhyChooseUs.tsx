@@ -24,7 +24,7 @@ export default function WhyChooseUs() {
       icon: <Code className="w-10 h-10 text-primary" />,
       title: "Modern Tech Stack",
       description:
-        "Built with Next.js, Tailwind CSS, and best industry practices.",
+        "Expert in modern front-end and back-end tech for scalable, high-performance apps.",
     },
   ];
 

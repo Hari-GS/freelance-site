@@ -38,7 +38,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-5 text-lg text-neutral-grey max-w-xl mx-auto md:mx-0">
-            Custom web and mobile solutions delivered on time with quality you can trust.
+            We’re a freelance development team, ensuring every project is delivered with trusted quality
           </p>
           
           <div className="mt-10 flex flex-wrap justify-center md:justify-start gap-4">

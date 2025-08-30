@@ -41,10 +41,13 @@ export default function Header() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-bold text-primary">
-          YourLogo
+        <Link href="/" className="flex items-center gap-2">
+          <img 
+            src="/lancerra-logo-2.png" // 👈 place your logo.png inside /public
+            alt="YourLogo"
+            className="h-10 w-auto" // adjust size as needed
+          />
         </Link>
-
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-8 text-gray-700 font-medium">
           {['home', 'services', 'contact'].map((item) => (
