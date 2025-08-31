@@ -69,7 +69,7 @@ export default function ServicesSection() {
               className="bg-white rounded-2xl p-6 border border-gray-200 shadow-md hover:shadow-xl transition-all relative overflow-hidden group"
             >
               {/* Icon with gradient background */}
-              <div className="text-4xl mb-4 inline-block bg-gradient-to-r bg-neutral-white text-white p-3 rounded-xl shadow-md group-hover:scale-110 transition-transform duration-300">
+              <div className="text-4xl mb-4 inline-block bg-gradient-to-r bg-primary/10  text-white p-3 rounded-xl shadow-md group-hover:scale-110 transition-transform duration-300">
                 {service.icon}
               </div>
 

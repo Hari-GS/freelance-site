@@ -43,7 +43,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <img 
-            src="/lancerra-logo-2.png" // 👈 place your logo.png inside /public
+            src="/lancerra-logo-4.png" // 👈 place your logo.png inside /public
             alt="YourLogo"
             className="h-10 w-auto" // adjust size as needed
           />
@@ -55,12 +55,12 @@ export default function Header() {
               key={item}
               href={`#${item}`}
               className={`hover:text-primary transition relative ${
-                activeSection === item ? 'text-primary' : ''
+                activeSection === item ? 'text-primary-dark' : ''
               }`}
             >
               {item.charAt(0).toUpperCase() + item.slice(1)}
               {activeSection === item && (
-                <span className="absolute left-0 -bottom-1 h-0.5 w-full bg-primary rounded"></span>
+                <span className="absolute left-0 -bottom-1 h-0.5 w-full bg-primary-dark rounded"></span>
               )}
             </Link>
           ))}
@@ -70,7 +70,7 @@ export default function Header() {
         <div className="hidden md:block">
           <a
             href="#contact"
-            className="rounded-full bg-gradient-to-r from-primary to-primary-dark px-6 py-2 text-neutral-white font-medium shadow-md hover:shadow-lg transition transform hover:scale-105"
+            className="rounded-full bg-gradient-to-r from-primary to-primary-dark px-6 py-2 text-white font-medium shadow-md hover:shadow-lg transition transform hover:scale-105"
           >
             Hire Us!
           </a>
@@ -118,7 +118,7 @@ export default function Header() {
             animate={{ height: 'auto', opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="md:hidden bg-white border-t border-neutral-grey px-6 py-4 flex flex-col space-y-4 text-gray-700 font-medium"
+            className="md:hidden bg-white border-t border-neutral-grey px-6 py-4 flex flex-col space-y-6 text-gray-700 font-medium"
           >
             {['home', 'services', 'contact'].map((item, idx) => (
               <motion.div
@@ -142,13 +142,13 @@ export default function Header() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.2 }}
             >
-              <a
+              <Link
                 href="#contact"
                 className="rounded-full bg-gradient-to-r from-primary to-primary-dark px-6 py-2 text-white font-medium text-center shadow-md hover:shadow-lg transition transform hover:scale-105"
                 onClick={() => setIsOpen(false)}
               >
                 Get a Quote
-              </a>
+              </Link>
             </motion.div>
           </motion.nav>
         )}

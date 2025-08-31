@@ -13,13 +13,13 @@
   --color-foreground: var(--foreground);
 
   /* Primary green palette */
-  --color-primary: #522c5d;       /* base green (trust) */
-  --color-primary-dark: #29104a;  /* darker green */
-  --color-primary-light: #845162; /* lighter green */
+  --color-primary: #4C9A2A;       /* base green (trust) */
+  --color-primary-dark: #1E5631;  /* darker green */
+  --color-primary-light: #68BB59; /* lighter green */
 
   /* Neutral palette for backgrounds/text */
-  --color-neutral-white: #ffe3d8;
-  --color-neutral-grey: #845162;  /* mid grey */
+  --color-neutral-white: #ACDF87;
+  --color-neutral-grey: #708090;  /* mid grey */
   --color-neutral-black: #150016;
 
   /* Fonts */

@@ -84,7 +84,7 @@ export default function AboutSection() {
               transition={{ duration: 0.6, delay: index * 0.2 }}
               className="bg-white shadow-md rounded-2xl p-6 border border-gray-200 hover:shadow-lg transition text-center"
             >
-              <div className="w-28 h-28 mx-auto mb-4 rounded-full overflow-hidden border-4 border-primary shadow">
+              <div className="w-28 h-28 mx-auto mb-4 rounded-full overflow-hidden border-4 border-primary-light  shadow">
                 <img
                   src={member.image}
                   alt={member.name}

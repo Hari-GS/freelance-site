@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
@@ -12,24 +12,24 @@ export default function Footer() {
 
         {/* Social Links */}
         <div className="flex gap-4">
-          <a
+          {/* <a
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full bg-neutral-white/10 hover:bg-color-primary-dark transition-colors"
           >
             <FaLinkedin className="text-color-primary w-5 h-5" />
-          </a>
+          </a> */}
           <a
-            href="https://github.com"
+            href="https://www.instagram.com/lancerra.freelance/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full bg-neutral-white/10 hover:bg-color-primary-dark transition-colors"
           >
-            <FaGithub className="text-color-primary w-5 h-5" />
+            <FaInstagram className="text-color-primary w-5 h-5" />
           </a>
           <a
-            href="mailto:your@email.com"
+            href="mailto:lancerra.freelance@gmail.com"
             className="p-2 rounded-full bg-neutral-white/10 hover:bg-color-primary-dark transition-colors"
           >
             <MdEmail className="text-color-primary w-5 h-5" />

@@ -60,7 +60,7 @@ export default function Hero() {
         {/* Illustration / Image */}
         <div className="flex-1 flex justify-center">
           <Image 
-            src="/hero-illustration-4.png" // replace with your illustration
+            src="/hero-illustration.jpg" // replace with your illustration
             alt="Illustration"
             width={500}
             height={400}
