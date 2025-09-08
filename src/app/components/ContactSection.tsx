@@ -122,7 +122,7 @@ export default function ContactSection() {
           transition={{ duration: 0.6, delay: 0.5 }}
         >
           Or reach us directly on{" "}
-          <a href="mailto:lancerra.freelance@gmail.com" className="text-primary font-semibold hover:underline">
+          <a href="mailto:lancerratech@gmail.com" className="text-primary font-semibold hover:underline">
             Email
           </a>{" "}
           or{" "}

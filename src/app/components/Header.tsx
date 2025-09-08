@@ -43,7 +43,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <img 
-            src="/lancerra-logo-4.png" // 👈 place your logo.png inside /public
+            src="/Lancerra-logo-02.png" // 👈 place your logo.png inside /public
             alt="YourLogo"
             className="h-10 w-auto" // adjust size as needed
           />
@@ -72,7 +72,7 @@ export default function Header() {
             href="#contact"
             className="rounded-full bg-gradient-to-r from-primary to-primary-dark px-6 py-2 text-white font-medium shadow-md hover:shadow-lg transition transform hover:scale-105"
           >
-            Hire Us!
+            Get a Quote
           </a>
         </div>
 

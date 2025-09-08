@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
         {/* Copyright */}
         <p className="text-sm text-gray-50">
-          © 2025 Lancerra. All rights reserved.
+          © 2025 Lancerra Technologies. All rights reserved.
         </p>
 
         {/* Social Links */}
@@ -21,7 +21,7 @@ export default function Footer() {
             <FaLinkedin className="text-color-primary w-5 h-5" />
           </a> */}
           <a
-            href="https://www.instagram.com/lancerra.freelance/"
+            href="https://www.instagram.com/lancerra.tech/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full bg-neutral-white/10 hover:bg-color-primary-dark transition-colors"
@@ -29,7 +29,7 @@ export default function Footer() {
             <FaInstagram className="text-color-primary w-5 h-5" />
           </a>
           <a
-            href="mailto:lancerra.freelance@gmail.com"
+            href="mailto:lancerratech@gmail.com"
             className="p-2 rounded-full bg-neutral-white/10 hover:bg-color-primary-dark transition-colors"
           >
             <MdEmail className="text-color-primary w-5 h-5" />
